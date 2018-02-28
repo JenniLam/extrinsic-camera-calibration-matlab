@@ -16,6 +16,7 @@ Note:
   distortion
 
 Automatic Cross Junction Detection (cross points in checkerboard):
+-  See results/ for examples of detected cross junctions
 1. Use four corner bounding box to compute transform from
    warped to flat checkerboard.
 2. Given homography, bilinearly interpolate warped pixels and
@@ -66,6 +67,7 @@ Contents
 images/                     images tested on
 matlab/                     MATLAB code
 test/                       test files, including ground truth data
+results/                    resulting detected cross junctions
 
 To Run
 -------------------------------------------------------------------
