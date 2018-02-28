@@ -23,7 +23,7 @@ Automatic Cross Junction Detection (cross points in checkerboard):
 3. Blur image to reduce noise, and run harris detection to find
    corners.
 4. Collapse clusters of detected features into centroid of clusters.
-   (Harris detector typically finds a cluster of 40 'corners' 
+   (Harris detector typically finds a cluster of ~30 'corners' 
    centered around each cross junction)
 5. Run saddle point detection on small patches around detected
    feature cluster centroid. This provides a more exact location for
